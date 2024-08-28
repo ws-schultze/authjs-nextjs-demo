@@ -30,8 +30,10 @@ export default async function Home() {
           <SignOutBtn />
         </div>
       ) : (
-        <div>
-          <p>Click to demo the Google provider</p>
+        <div className="flex flex-col gap-3">
+          <p className="rounded-md bg-gray-700 p-3 flex justify-center">
+            Sign in to see what the session data looks like.
+          </p>
           <GoogleSignInBtn />
         </div>
       )}
