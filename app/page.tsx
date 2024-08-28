@@ -30,7 +30,10 @@ export default async function Home() {
           <SignOutBtn />
         </div>
       ) : (
-        <GoogleSignInBtn />
+        <div>
+          <p>Click to demo the Google provider</p>
+          <GoogleSignInBtn />
+        </div>
       )}
     </main>
   );
